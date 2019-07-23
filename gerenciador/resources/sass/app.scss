@@ -1,0 +1,46 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import '~admin-lte/dist/css/adminlte.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.bg-aqua{
+  background-color: #17a2b8 !important;
+}
+
+.bg-green{
+  background-color: #28a745 !important;
+}
+
+.bg-orange{
+  background-color: #fd7e14 !important;
+}
+
+.bg-yellow{
+  background-color: #ffc107 !important;
+}
+.c-white{
+  color:#ffffff !important;
+  
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: .75;
+}

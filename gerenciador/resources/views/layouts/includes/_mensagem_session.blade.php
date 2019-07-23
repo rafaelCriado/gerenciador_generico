@@ -1,0 +1,8 @@
+@if(Session::has('mensagem'))
+        <div class="alert alert-{{ Session::get('mensagem')['class']}} fade in alert-dismissible show m-1" role="alert" id="msgAlert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true" style="font-size:20px">×</span>
+            </button>
+            {{Session::get('mensagem')['msg']}}
+        </div>
+@endif
